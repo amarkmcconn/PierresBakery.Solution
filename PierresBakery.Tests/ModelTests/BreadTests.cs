@@ -36,9 +36,9 @@ namespace PierresBakery.Tests
       Assert.AreEqual(10, newBread.BreadOrderTotal);
     }
     [TestMethod]
-    public void BaugettesPrice_FindsPriceForThree_Int()
+    public void BaugettesPrice_FindsPriceForSix_Int()
     {
-      Bread newBread = new Bread(4);
+      Bread newBread = new Bread(6);
       newBread.BaugettesPrice();
       Assert.AreEqual(20, newBread.BreadOrderTotal);
     }
