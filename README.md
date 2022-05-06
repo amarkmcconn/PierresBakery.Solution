@@ -1,27 +1,33 @@
-# _{Application Name}_
-#### By _**{List of contributors}**_
-#### _{Brief description of application}_
-## Technologies Used
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
-## Description
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
-## Setup/Installation Requirements
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
-## Known Bugs
+# _Bread 🍞 and Pastry Bakery 🍩_
+#### By _**Mark McConnell**_
+#### _This is a C# application for a bakery that allows a user to order bread or pastries_
+## Technologies Used 🖥️
+* _C#_
+* _MSTest_
+* _.Net 5.0_
+* _REPL_
+* _Git_
+* _VsCode_
+* __
+## Description ✅
+_This is a C# application for a bakery that allows a user to order bread or pastries. There are two classes: one for Bread and one for Pastry. When a user runs the application, they will receive a prompt with a welcome message and the cost for both Bread and Pastry. A user can specify how many loaves of Bread and how many Pastrys they'd like. The application will return the total cost of the order_.
 
-* _Any known issues_
-* _should go here_
+## Setup/Installation Requirements 🖊️
+* _Clone this repo: https://github.com/amarkmcconn/PierresBakery.Solution_
+* _Enter the new directory using the command 'cd PierresBakery.Solution_
+* _In the root directory, confirm there is a .gitignore file_
+* _add "*/obj", "*/bin" , "*/.vscode" to the .gitngore file. It will keep your repository clean of unnecessary files_
+* _To interact with MSTests navigate to the PierresBakery.Tests directory and run ```dotnet test```_
+* _To interact with the Console Program navigate to the PierreBakery directory and run ```dotnet run```_
 
-## License
+## Known Bugs 🐛
+* _No Known Bugs_
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
-Copyright (c) _date_ _author name(s)_
+## License 
+
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+_If you run into any issues or have questions, ideas, or concerns;  Please email me: mark.programming1@gmail.com  or make a contribution to the code._
+
+Copyright (c) _2022_ _Mark McConnell_
