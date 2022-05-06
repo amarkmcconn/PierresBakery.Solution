@@ -22,6 +22,10 @@ namespace PierresBakery
       {
         BreadOrderTotal += 10;
       }
+      else if (BreadBaugettes % 3 == 0) 
+      {
+        BreadOrderTotal = (BreadBaugettes / 3 * 10);
+      }
       return BreadOrderTotal;
     }
   }
