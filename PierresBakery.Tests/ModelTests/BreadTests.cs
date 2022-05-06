@@ -17,11 +17,11 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void BaugettesPrice_FindsPrice_Int()
     {
-      Bread newBread = newBread(breadPrice, breadBaugettes);
-      int breadPrice = 10;
-      int breadBaugettes = 2;
+      int breadPrice = 5;
+      int breadBaugettes = 1;
+      Bread newBread = newBread(5, 1);
       newBread.BaugettesPrice();
-      Assert.AreEqual(10, newBread.BreadPrice);
+      Assert.AreEqual(newBread.OrderTotal, breadPrice);
     }
   }
 }
