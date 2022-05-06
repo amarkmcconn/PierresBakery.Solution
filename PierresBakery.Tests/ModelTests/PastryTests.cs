@@ -43,7 +43,7 @@ namespace PierresBakery.Tests
       Assert.AreEqual(7, newPastry.PastryOrderTotal);
     }
     [TestMethod]
-    public void PastryPrice_FindsPriceForFour_Int()
+    public void PastryPrice_FindsPriceForFive_Int()
     {
       Pastry newPastry = new Pastry(5);
       newPastry.PastryPrice();
