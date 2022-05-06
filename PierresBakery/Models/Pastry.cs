@@ -30,6 +30,10 @@ namespace PierresBakery
       {
         PastryOrderTotal += 7; 
       }
+      else if (PastriesAmount == 5)
+      {
+        PastryOrderTotal += 9; 
+      }
       return PastryOrderTotal;
     }  
   }
