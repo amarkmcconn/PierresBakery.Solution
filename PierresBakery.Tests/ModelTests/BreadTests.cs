@@ -9,10 +9,10 @@ namespace PierresBakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void OrderTotal_GivesPriceForOrder_Int()
+    public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      Bread inputBread = new Bread (1);
-      Assert.AreEqual(5, inputBread.OrderTotal);
+      Bread newBread = new Bread();
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
   }
 }
