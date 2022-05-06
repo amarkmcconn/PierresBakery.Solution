@@ -1,7 +1,20 @@
+using System;
+using System.Collections.Generic;
+
 namespace PierresBakery
 {
   public class Bread
   {
-    // properties, constructors, methods, etc. go here
+    
+    public int OrderNum {get; set;}
+
+    public Bread ( int amount)
+    {
+      OrderNum = amount;
+    }
+    public int OrderTotal ()
+    {
+      return 0;
+    }
   }
 }
