@@ -6,24 +6,23 @@ namespace PierresBakery
   public class Bread
   {
     public int BreadBaugettes { get; set; }
-    public int OrderTotal { get; set; }
+    public int BreadOrderTotal { get; set; }
     public Bread  (int breadBaugettes)
     {
       BreadBaugettes = breadBaugettes;
-      OrderTotal = 0;
+      BreadOrderTotal = 0;
     }
     public int BaugettesPrice ()
     {
-      int numberOfBaugettes = BreadBaugettes;
-      if (numberOfBaugettes == 1) 
+      if (BreadBaugettes == 1) 
       {
-        OrderTotal += 5;
+        BreadOrderTotal += 5;
       }
-      else if (numberOfBaugettes == 2) 
+      else if (BreadBaugettes == 2) 
       {
-        OrderTotal += 10;
+        BreadOrderTotal += 10;
       }
-      return OrderTotal;
+      return BreadOrderTotal;
     }
   }
 }

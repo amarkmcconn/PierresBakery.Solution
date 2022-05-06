@@ -19,14 +19,14 @@ namespace PierresBakery.Tests
     {
       Bread newBread = new Bread(1);
       newBread.BaugettesPrice();
-      Assert.AreEqual(5, newBread.OrderTotal);
+      Assert.AreEqual(5, newBread.BreadOrderTotal);
     }
     [TestMethod]
     public void BaugettesPrice_FindsPriceForTwo_Int()
     {
       Bread newBread = new Bread(2);
       newBread.BaugettesPrice();
-      Assert.AreEqual(10, newBread.OrderTotal);
+      Assert.AreEqual(10, newBread.BreadOrderTotal);
     }
   }
 }
