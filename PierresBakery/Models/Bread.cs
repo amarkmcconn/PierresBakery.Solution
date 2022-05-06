@@ -14,7 +14,7 @@ namespace PierresBakery
     }
     public int BaugettesPrice ()
     {
-      return 0;
+      return BreadPrice;
     }
   }
 }
