@@ -18,7 +18,7 @@ namespace PierresBakery.Tests
     public void PastryPrice_FindsPriceForOne_Int()
     {
       Pastry newPastry = new Pastry(1);
-      newBread.PastryPrice();
+      newPastry.PastryPrice();
       Assert.AreEqual(2, newPastry.PastryOrderTotal);
     }
   }

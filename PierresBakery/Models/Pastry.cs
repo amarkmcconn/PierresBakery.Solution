@@ -12,5 +12,13 @@ namespace PierresBakery
       PastriesAmount = pastryAmount;
       PastryOrderTotal = 0;
     }
+    public int PastryPrice ()
+    {
+      if (PastriesAmount == 1) 
+      {
+        PastryOrderTotal += 2;
+      }
+      return PastryOrderTotal;
+    }  
   }
 } 
