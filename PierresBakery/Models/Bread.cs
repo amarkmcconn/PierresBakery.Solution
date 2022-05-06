@@ -9,8 +9,12 @@ namespace PierresBakery
     public int BreadBaugettes { get; set;}
     public Bread (int breadPrice, int breadBaugettes)
     {
-      BreadPrice = 5;
+      BreadPrice = breadPrice;
       BreadBaugettes = breadBaugettes;
+    }
+    public int BaugettesPrice ()
+    {
+      return 0;
     }
   }
 }
