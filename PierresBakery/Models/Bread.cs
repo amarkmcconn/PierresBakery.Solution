@@ -15,8 +15,13 @@ namespace PierresBakery
     public int BaugettesPrice ()
     {
       int numberOfBaugettes = BreadBaugettes;
-      if (numberOfBaugettes == 1) {
+      if (numberOfBaugettes == 1) 
+      {
         OrderTotal += 5;
+      }
+      else if (numberOfBaugettes == 2) 
+      {
+        OrderTotal += 10;
       }
       return OrderTotal;
     }
