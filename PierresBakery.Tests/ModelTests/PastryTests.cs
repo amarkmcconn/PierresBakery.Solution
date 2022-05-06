@@ -21,5 +21,12 @@ namespace PierresBakery.Tests
       newPastry.PastryPrice();
       Assert.AreEqual(2, newPastry.PastryOrderTotal);
     }
+    [TestMethod]
+    public void PastryPrice_FindsPriceForTwo_Int()
+    {
+      Pastry newPastry = new Pastry(2);
+      newPastry.PastryPrice();
+      Assert.AreEqual(4, newPastry.PastryOrderTotal);
+    }
   }
 }
