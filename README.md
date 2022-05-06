@@ -15,7 +15,7 @@
 
 ## Description ✅
 
-_This is a C# application for a bakery that allows a user to order bread or pastries. There are two classes: one for Bread and one for Pastry. When a user runs the application, they will receive a prompt with a welcome message and the cost for both Bread and Pastry. A user can specify how many loaves of Bread and how many Pastrys they'd like. The application will return the total cost of the order_.
+_This is a C# application for a bakery that allows a user to order bread or pastries. There are two classes: one for Bread and one for Pastry. When a user runs the application, they will receive a prompt with a welcome message and the cost for both Bread and Pastry. A user can specify how many loaves of Bread and how many Pastries they'd like. The application will return the total cost of the order_.
 
 ## Setup/Installation Requirements 🖊️
 
